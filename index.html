@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Break up generator">
+	<meta name="keywords" content="Breakup Generator, boyfriend, girlfriend, breakup">
+	<meta name="author" content="John Dirstein and Michelle Payne">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Breakup Generator</title>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Patrick+Hand" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome-animation.min.css">
+</head>
+<body>
+	<header class="main-header">
+		<h1><span class="main-heading">Breakup</span><img src="img/broken-heart.svg" alt="Broken heart" class="header-heart-icon">Generator</h1>
+	</header>
+	<section class="main-section">
+		<div class="wrapper">
+			<form>
+				<fieldset>
+					<legend>We'll need a few details...</legend>
+
+					<input type="text" name="" id="dumper" placeholder="What's your name?" autocomplete='off'>
+					<input type="text" name="" id="dumpee" placeholder="Who are you dumping?" autocomplete='off'>
+				</fieldset>
+
+				<fieldset class="column-form">
+					<legend>How long have you been together?</legend>
+					<div class="row">
+						<label for="length-1">0 to 6 months</label>
+						<input type="radio" name="length" id="length-1" value="short">
+					</div>
+					<div class="row">
+						<label for="length-2">7 months to 1 year</label>
+						<input type="radio" name="length" id="length-2" value="medium">
+					</div>
+					<div class="row">
+						<label for="length-3">More than a year</label>
+						<input type="radio" name="length" id="length-3" value="long">
+					</div>	
+				</fieldset>	
+
+				<fieldset class="column-form">
+					<legend>What's the reason for the break up?</legend>
+					<div class="row">
+						<label for="reason-1">I like my pet more</label>
+						<input type="radio" name="reason" id="reason-1"	value="pet">
+					</div>
+					<div class="row">
+						<label for="reason-2">Cheating</label>
+						<input type="radio" name="reason" id="reason-2"	value="cheating">
+					</div>
+					<div class="row">
+						<label for="reason-3">Parents don't approve</label>
+						<input type="radio" name="reason" id="reason-3"	value="parents">
+					</div>
+					<div class="row">
+						<label for="reason-4">Chew with their mouth open</label>
+						<input type="radio" name="reason" id="reason-4" value="mouth">
+					</div>
+				</fieldset>	
+
+				<fieldset class="column-form">
+					<legend>In what style would you like to break up in?</legend>
+					<div class="row">
+						<label for="style-1">Funny</label>
+						<input type="radio" name="style" id="style-1" value="funny">
+					</div>
+					<div class="row">
+						<label for="style-2">Passive</label>
+						<input type="radio" name="style" id="style-2" value="passive">
+					</div>
+					<div class="row">
+						<label for="style-3">Formal</label>
+						<input type="radio" name="style" id="style-3" value="formal">
+					</div>
+					<div class="row">
+						<label for="style-4">Song Lyrics</label>
+						<input type="radio" name="style" id="style-4" value="song">
+					</div>
+				</fieldset>	
+				<button>Break some hearts <i class="fa fa-heart faa-pulse animated" aria-hidden="true"></i></button>
+			</form>
+		</div>
+	</section> <!-- End of input section -->
+
+	<section class="content-section"><!--Start of empty section for the breakup letter -->
+		<div class="resultWrapper">
+
+			
+		</div>
+	</section>
+	<footer>
+		<h3 class="footer-text">Made with <i class="fa fa-heart footer-heart faa-pulse animated" aria-hidden="true"></i> by <a href="http://www.themichellepayne.com" target="_blank">Michelle Payne</a> and <a href="http://www.johndirstein.com" target="_blank"> Johnathon Dirstein</a></h3>
+		<a class="footer-text"href="https://twitter.com/intent/tweet?text=Breakup%20Generator%20@%20http://www.johndirstein.com/breakup%20http://www.themichellepayne.com/breakup"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+
+	</footer>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  		crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+
+</body>
+</html>
