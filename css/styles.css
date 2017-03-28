@@ -31,7 +31,7 @@ body {
 	margin: 0 auto;
 	background-color: #fff;
 	border-radius: 30px;
-	box-shadow: 5px 5px 100px rgb(254, 64, 128);
+	/*box-shadow: 5px 5px 100px rgb(254, 64, 128);*/
 }
 
 @media (max-width: 768px) {
@@ -99,17 +99,16 @@ fieldset {
 	border: none;
 	width: 100%;
 	margin: 0 auto;
-	text-align: center;
 }
 
 label{
 	font-size: 1.2rem;
-	text-align: left;
 }
 
 legend {
 	font-size: 1.8rem;
 	line-height: 1.5;
+	margin: 10px 0;
 }
 
 @media (max-width: 480px) {
